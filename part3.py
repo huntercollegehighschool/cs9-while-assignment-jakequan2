@@ -24,6 +24,6 @@ while num != 0:
   numcount = numcount + 1
   if num == 0:
     print("Average:",total/numcount)
- 
+
     
 

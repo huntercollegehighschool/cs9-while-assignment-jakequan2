@@ -13,10 +13,12 @@ Product: 60
 
 '''
 num = int(input("Enter a number or enter 0 to stop:"))
+product = 1
 numcount = 0
 
 while num != 0:
-  num2 = int(input("Enter a number or enter 0 to stop:"))
+  product = product * num
   numcount = numcount + 1
+  num = int(input("Enter a number or enter 0 to stop:"))
   if num == 0:
-    print("Product:",total * numcount)
+    print("Product:",product)
