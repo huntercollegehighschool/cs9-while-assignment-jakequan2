@@ -16,9 +16,14 @@ Average: 6.0
 '''
 num = int(input("Enter a number or enter 0 to stop:"))
 total = 0
+numcount = 0
 
 while num != 0:
   total = total + num
   num = int(input("Enter a number or enter 0 to stop:"))
+  numcount = numcount + 1
+  if num == 0:
+    print("Average:",total/numcount)
+ 
     
-print("Average:", total)
+
